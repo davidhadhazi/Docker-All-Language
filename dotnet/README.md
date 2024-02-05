@@ -23,12 +23,12 @@ Doesn't require any _dotnet SDK_.
 To build the docker image
 
 ```bash
-docker build . -t ang-image:latest
+docker build . -t dotnet-image:latest
 ```
 
 To run the docker container
 ```bash
-docker run --name ang-container ang-image:latest
+docker run --name dotnet-container ang-image:latest
 ```
 
 Stop it, by pressing _Ctrl + C_.
