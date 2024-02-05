@@ -1,9 +1,9 @@
-#Docker-.NET
+# Docker-.NET
 
 This is a simple dotnet console app, which counts numbers every second.
 This whole project was based on [this site](https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=linux&pivots=dotnet-8-0)
 
-##Running in local enviromnet
+## Running in local enviromnet
 
 Dotnet version
 ```bash
@@ -19,8 +19,8 @@ To run this project (without docker)
 dotnet run
 ```
 
-##Building the image and running the container
-Doesn't require any _dotnet_ SDK 
+## Building the image and running the container
+Doesn't require any _dotnet SDK_ 
 
 To build the docker image
 
