@@ -19,6 +19,18 @@ npm start
 ## Building the image and running the container
 Only requires docker.
 
+To reach the host, modify the _npm start_ command
+```
+{
+"scripts":{
+  ...
+  "start": "ng serve --host 0.0.0.0 
+  ...
+  },
+...
+}
+```
+
 To build the docker image
 
 ```bash
